@@ -97,7 +97,8 @@ class Game {
       });
     }
 
-    const currentYearRecordsFile = "current_year_records.xlsx";
+    const currentYearRecordsFile =
+      "Secret-Santa-Game-Result-" + new Date().getFullYear() + ".xlsx";
     const currentYearRecordsSheet = [
       [
         "Employee_Name",
