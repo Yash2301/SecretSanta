@@ -1,0 +1,21 @@
+{
+  "name": "xlsx-to-json",
+  "version": "1.0.0",
+  "description": "Convert XLSX files to JSON format",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js -i Employee-List.xlsx -p Secret-Santa-Game-Result-2023.xlsx -o output.json",
+    "test": "jest --detectOpenHandles"
+  },
+  "type": "module",
+  "author": "Yash Sanathara",
+  "dependencies": {
+    "node-xlsx": "^0.24.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/register": "^7.25.9",
+    "jest": "^29.7.0"
+  }
+}
